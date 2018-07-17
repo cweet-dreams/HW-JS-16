@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bd745dd-f133-4170-807d-8aaa9f98a5e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/news-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/firestore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/httpEs6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favorite-news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/favorite-news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/news-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firestore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firestore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ui.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,26 +27,34 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="80" column="6" lean-forward="true" selection-start-line="76" selection-end-line="80" selection-end-column="6" />
+            <state relative-caret-position="481">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorite-news.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/favorite-news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorite-news.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/favorite-news.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/news.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="1140">
               <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,8 +62,8 @@
       <file leaf-file-name="firestore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/firestore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="381">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -80,46 +77,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="15" column="120" selection-start-line="15" selection-start-column="120" selection-end-line="15" selection-end-column="120" />
               <folding>
-                <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-                <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+                <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="401">
+              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/news-store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,15 +145,16 @@
         <option value="$PROJECT_DIR$/js/http.js" />
         <option value="$PROJECT_DIR$/js/promise.js" />
         <option value="$PROJECT_DIR$/js/auth.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/login-start.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/firestore.js" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/js/ui.js" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/registration.js" />
         <option value="$PROJECT_DIR$/registration.html" />
+        <option value="$PROJECT_DIR$/js/firestore.js" />
+        <option value="$PROJECT_DIR$/js/ui.js" />
+        <option value="$PROJECT_DIR$/js/news-store.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -175,10 +173,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="354" />
+    <option name="y" value="26" />
+    <option name="width" value="828" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -186,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,15 +245,18 @@
       <workItem from="1530685776511" duration="11349000" />
       <workItem from="1530785561691" duration="1205000" />
       <workItem from="1531130279722" duration="12759000" />
-      <workItem from="1531289589955" duration="13602000" />
+      <workItem from="1531289589955" duration="15078000" />
+      <workItem from="1531487510553" duration="366000" />
+      <workItem from="1531759585175" duration="604000" />
+      <workItem from="1531762984640" duration="2765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47757000" />
+    <option name="totallyTimeSpent" value="52968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1669107" />
@@ -284,6 +285,131 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding>
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/firestore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="80" column="6" selection-start-line="76" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding>
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/firestore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1420">
@@ -296,21 +422,21 @@
         <state relative-caret-position="1180">
           <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
           </folding>
         </state>
       </provider>
@@ -351,21 +477,21 @@
         <state relative-caret-position="1600">
           <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
           </folding>
         </state>
       </provider>
@@ -396,21 +522,21 @@
         <state relative-caret-position="1600">
           <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
           </folding>
         </state>
       </provider>
@@ -441,21 +567,21 @@
         <state relative-caret-position="60">
           <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
           </folding>
         </state>
       </provider>
@@ -486,21 +612,21 @@
         <state relative-caret-position="1500">
           <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
           </folding>
         </state>
       </provider>
@@ -543,48 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/firestore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="80" column="6" lean-forward="true" selection-start-line="76" selection-end-line="80" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding>
-            <marker date="1531321665233" expanded="true" signature="265:1000" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="305:987" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="381:469" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="510:735" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="775:970" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1255:1647" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1306:1632" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1352:1412" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1448:1508" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1555:1615" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1831:1920" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1883" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="1866:1907" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2104:2244" ph="..." />
-            <marker date="1531321665233" expanded="true" signature="2139:2231" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,16 +692,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="1140">
           <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/firestore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/news.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="120" selection-start-line="15" selection-start-column="120" selection-end-line="15" selection-end-column="120" />
+          <folding>
+            <marker date="1531815185756" expanded="true" signature="265:1121" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="305:1108" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="381:469" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="510:856" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="896:1091" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1376:1768" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1427:1753" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1473:1533" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1569:1629" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1676:1736" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2004" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="1987:2028" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2225:2365" ph="..." />
+            <marker date="1531815185756" expanded="true" signature="2260:2352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/news-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="401">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/favorite-news.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorite-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
       </provider>
     </entry>
   </component>

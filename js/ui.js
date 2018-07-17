@@ -13,6 +13,7 @@ class UI {
               <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">${news.title}<i class="material-icons right">more_vert</i></span>
                   <p><a href="${news.url}">Read more</a></p>
+                   <button data-index="${index}" class="waves-effect waves-light btn add-favorite">Add favorite</button>
               </div>
               <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">${news.title}<i class="material-icons right">close</i></span>

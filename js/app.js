@@ -7,6 +7,8 @@ const ui = new UI();
 const apiKey = "7a8ffd330f4a4f29b53c032a7e21f4af";
 // Init Auth
 const auth = new Auth();
+// Init Favoritenews
+ const news = new FavoriteNews();
 
 
 // Init elements
@@ -16,6 +18,7 @@ const searchBtn = document.getElementById("searchBtn");
 const selectResource = document.getElementById("resource");
 const selectCategory = document.getElementById("category");
 const logout = document.querySelector(".logout");
+const newsContainer = document.querySelector('.news-container');
 
 // All events
 select.addEventListener("change", onChangeCountry);
@@ -23,6 +26,7 @@ searchBtn.addEventListener("click", onSearch);
 selectResource.addEventListener("change", onChangeResource);
 selectCategory.addEventListener("change", onChangeCategory);
 logout.addEventListener("click", onLogout);
+newsContainer.addEventListener("click", addFavorite);
 
 // Check auth state
 firebase.auth().onAuthStateChanged(function(user) {
@@ -47,7 +51,9 @@ function onChangeCountry(e) {
         .then(res => {
             const response = JSON.parse(res.response);
             ui.clearContainer();
-            response.articles.forEach(news => ui.addNews(news));
+            response.articles.forEach(news, index => ui.addNews(news, index));
+            // сохраняем новости в хранилище news-store
+            newsStore.setNews(response.articles);
         })
         .catch(err => ui.showError(err.error));
 }
@@ -115,4 +121,19 @@ function onLogout() {
     auth.logout()
         .then(() => window.location = 'login.html')
         .catch(err => console.log(err));
+}
+
+function addFavorite(e) {
+    if (e.target.classList.contains("add-favorite")) {
+        const index = e.target.dataset.index;
+        const oneNews = newsStore.getNews()[index];
+        news.addFavoriteNews(oneNews)
+            .then(data => {
+                // вывести сообщение что новость добавлена успешно
+                console.log(data);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }
 }
